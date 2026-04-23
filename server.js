@@ -15,5 +15,5 @@ app.get("/api/skills", (req, res) => {
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, "0.0.0.0", () => {
-  console.log("🚀 Backend rodando na porta ${PORT}");
+  console.log(`🚀 Backend rodando na porta ${PORT}`);
 });
